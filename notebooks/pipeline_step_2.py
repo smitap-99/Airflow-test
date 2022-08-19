@@ -1,8 +1,9 @@
 import sys
 
-sys.path.append('../src/')
+sys.path.insert(1, 'src/')
 from file_to_s3 import *
 
-def save_file():
+def read_contents():
     readContents()
     
+read_contents()
